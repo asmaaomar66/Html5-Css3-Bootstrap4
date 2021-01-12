@@ -1,0 +1,87 @@
+/*
+theme name : elitecorp
+theme coder: web developer
+psd designer:
+first color : #08526d
+second color: #ec1c23
+*/
+
+/* start upper bar */
+.upper-bar {
+    background-color: #08526d;
+    color: #fff;
+    padding: 8px;
+}
+.upper-bar span{
+    color: #bfc6c9;
+    font-size: 15px;
+}
+.upper-bar i {
+    padding: 5px;
+    cursor: pointer;
+}
+.upper-bar .phone {
+    margin-right: 3px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.upper-bar .email {
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.upper-bar .email:hover, .upper-bar .phone:hover{
+    color: #fff;
+}
+.upper-bar .get-quote {
+    display: inline-block;
+    border: 1px solid #ec1c23;
+    padding: 2px 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.upper-bar .get-quote:hover {
+    background-color: #ec1c23;
+    color: #fff;
+}
+.upper-bar .work {
+    margin-left: 50%;
+}
+/* end upper bar */
+/* start navbar */
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar-brand > span {
+    font-size: 40px;
+}
+.navbar-brand span:first-child {
+    font-size: 60px;
+    color: #08526d;
+}
+.navbar-brand span:last-child {
+    font-size: 50px;
+    color: #fd6b70;
+    font-weight: normal;
+}
+.navbar-nav .nav-link {
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #08526dde !important;
+    transition: 0.3s ease-in-out !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #ec1c23 !important;
+}
+.navbar-nav .active > .nav-link {
+    color: #ec1c23 !important;
+    transition: 0.3s ease-in-out !important;
+}
+.navbar-nav .active > .nav-link:hover{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+/*end navber*/
